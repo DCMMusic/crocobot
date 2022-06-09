@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/sirupsen/logrus"
+	"github.comdcmmusic/crocobot"
 )
 
 type Logger interface {
