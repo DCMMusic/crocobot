@@ -2,7 +2,7 @@
   " name " : " Timsah Oyunu " ,
   " description " : " Telegram kelime tabanlı bir oyun botu. " ,
   " anahtar kelimeler " : [ " telgraf " , " piton " ],
-  " depo " : " https://github.com/EkimozSupport/kelme " ,
+  " depo " : " https://github.com/DCMMusic/Crocobot " ,
   " env " : {
     " BOT_TOKEN " : {
       " description " : " @BotFather'dan bir bot jetonu. " ,
