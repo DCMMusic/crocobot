@@ -19,12 +19,12 @@
 package storage
 
 import (
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
+	"github.com/dcmmusic/crocobot"
+	_ "github.com/dcmmusic/crocobot/dialects/postgres"
 
 	"fmt"
 
-	"github.com/nuetoban/crocodile-game-bot/model"
+	"github.com/dcmmusic/crocobot/model"
 )
 
 type Postgres struct {
