@@ -5,7 +5,7 @@ Bu bot söz oyunu botudur və AZƏRBAYCANDA ilk botdur! Telegramda vaxtınızı 
 
 ## Quraşdırma
 ```
-go get -u github.com/play2pay/croco-az
+go get -u github.com/DCMMusic/crocobot
 ```
 ## Deploying your own
 
