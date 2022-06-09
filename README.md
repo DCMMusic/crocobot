@@ -1,7 +1,7 @@
 # Crocodile Game AZ BOT
 Bu bot söz oyunu botudur və AZƏRBAYCANDA ilk botdur! Telegramda vaxtınızı dahada maraqlı keçirin :)
 
-Əsas bot: https://t.me/CrocodileGameAZ_bot
+Əsas bot: https://t.me/KarabakhGamebot
 
 ## Quraşdırma
 ```
@@ -11,7 +11,7 @@ go get -u github.com/play2pay/croco-az
 
 ### To Heroku
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EkimozSupport/kelme)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DCMMusic/Crocobot)
 
 ## İşə salmaq
 1. .ENV Faylı redaktə et
@@ -45,7 +45,7 @@ docker-compose up -d --build
 ```
 
 ## Contact
-- Telegram: https://t.me/foxgowner
-- Mail: soc4up@gmail.com
+- Telegram: https://t.me/Thagiyevvvv 
+- Mail: evdiabii@gmail.com
 
-- Project link: https://github.com/play2pay/croco-az
+- Project link: https://github.com/DCMMusic/crocobot
