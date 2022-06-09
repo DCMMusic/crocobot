@@ -25,10 +25,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	tb "gopkg.in/tucnak/telebot.v2"
 
-	"github.com/nuetoban/crocodile-game-bot/crocodile"
-	"github.com/nuetoban/crocodile-game-bot/model"
-	"github.com/nuetoban/crocodile-game-bot/storage"
-	"github.com/nuetoban/crocodile-game-bot/utils"
+	"github.com/dcmmusic/crocobot/crocodile"
+	"github.com/dcmmusic/crocobot/model"
+	"github.com/dcmmusic/crocobot/storage"
+	"github.com/dcmmusic/crocobot/utils"
 )
 
 var (
@@ -485,11 +485,11 @@ func startNewGameHandler(m *tb.Message) {
 		menu := &tb.ReplyMarkup{ResizeReplyKeyboard: true}
 		r := &tb.ReplyMarkup{}
 		menu.Inline(
-			menu.Row(r.URL("🤖 Botu qrupuna əlavə et", "https://t.me/CrocodileGameAz_bot?startgroup=a")),
-			menu.Row(r.URL("🇦🇿 Əsas Oyun qrupumuz", "https://t.me/CrocodileGameAzerbaijan")),
-			menu.Row(r.URL("💎 Premium Oyun qrupumuz", "https://t.me/CrocoGameAzerbaijan")),
-			menu.Row(r.URL("👮🏻‍♂️🐊 Mafia/Crocodile Qrupumuz", "https://t.me/MafiaClubAZPremium2")),
-			menu.Row(r.URL("📣 Rəsmi Kanalımız", "https://t.me/CrocodileGameAz")),
+			menu.Row(r.URL("🤖 Botu qrupuna əlavə et", "https://t.me/QafqazCrobot?startgroup=a")),
+			menu.Row(r.URL("🇦🇿 Əsas Oyun qrupumuz", "https://t.me/KarabakhTeamm")),
+			menu.Row(r.URL("💎 Premium Oyun qrupumuz", "https://t.me/azeqafqaz2021")),
+			menu.Row(r.URL("👮🏻‍♂️🐊 Mafia/Crocodile Qrupumuz", "https://t.me/karabakhteamm")),
+			menu.Row(r.URL("📣 Rəsmi Kanalımız", "https://t.me/RiyaddBlog")),
 			menu.Row(r.URL("🖥 Rəsmi Saytımız", "http://crocodilegame.space")),
 		)
 
@@ -581,7 +581,7 @@ func startNewGameHandlerCallback(c *tb.Callback) {
 		m.Chat,
 		fmt.Sprintf(
 			`🎄 <b> <a href="tg://user?id=%d">%s</a> sözü başa salır! ❄️</b>.
-			🇷🇺 Наша группа для русскоязычных - @CrocodileGameRU`,
+			🇷🇺 Наша группа для русскоязычных - @RiyaddBlog`,
 			c.Sender.ID, html.EscapeString(c.Sender.FirstName)),
 		tb.ModeHTML,
 		&tb.ReplyMarkup{InlineKeyboard: wordsInlineKeys},
@@ -708,19 +708,19 @@ func infoHandler(m *tb.Message) {
 func helpHandler(m *tb.Message) {
 	sendMessage(m.Chat, m.Chat.ID, `
 <b>✅Qruplar/Grublar/Groups/Группы:
-🇦🇿 - @CrocodileGameAzerbaijan
-💎 - @MafiaClubAZPremium2
-🇺🇸 - @CrocodileGameEN
-🇹🇷 - @CrocodileGameTR
-🇷🇺 - @CrocodileGameRU
-🙋🏻‍♂️ - @CrocodileTalkAzerbaijan
-🔞 - https://t.me/joinchat/TttAfkl1wPyKSEuJ2JsQEA
-🙎🏻‍♀️ - https://t.me/joinchat/L7d-jlZKvTQlyhIwxLx-kw
+🇦🇿 - @karabakhteamm
+💎 - @karabakhteamm
+🇺🇸 - @riyaddblog
+🇹🇷 - @Riyaddblog
+🇷🇺 - @RiyaddBlog
+🙋🏻‍♂️ - @Thagiyevvvv
+🔞 - https://t.me/karabakhteamm
+🙎🏻‍♀️ - https://t.me/karabakhteamm
 
-🇦🇿 Botu öz qrupuna əlavə et: https://t.me/CrocodileGameAz_bot?startgroup=a
-🇺🇸 Add bot to chat: https://t.me/CrocodileGameEn_bot?startgroup=a
-🇹🇷 Botu grubuna ekle: https://t.me/CrocodileGameTR_bot?startgroup=a
-🇷🇺 Добавить бота в группу: https://t.me/CrocodileGameRU_bot?startgroup=a</b>
+🇦🇿 Botu öz qrupuna əlavə et: https://t.me/qafqazcrobot?startgroup=a
+🇺🇸 Add bot to chat: https://t.me/qafqazcrobot?startgroup=a
+🇹🇷 Botu grubuna ekle: https://t.me/qafqazcrobot?startgroup=a
+🇷🇺 Добавить бота в группу: https://t.me/qafqazcrobot?startgroup=a</b>
 `)
 }
 
